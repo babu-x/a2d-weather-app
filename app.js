@@ -71,3 +71,11 @@ app.post('/login/', async (request, response) => {
     }
   }
 })
+
+//
+
+app.get('/users/', async (request, response) => {
+  const getQuery = `SELECT * FROM user`
+  const dbResponse = await db.get(getQuery)
+  response.send(dbResponse)
+})
