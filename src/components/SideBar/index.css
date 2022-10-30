@@ -1,0 +1,87 @@
+.home-page-side-bar {
+  width: 20%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .home-page-side-bar {
+    width: 120px;
+  }
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 15px;
+}
+@media screen and (max-width: 768px) {
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.logo {
+  width: 70px;
+  height: 30px;
+}
+.logo-des {
+  color: #000;
+  font-family: 'roboto';
+  font-weight: 600;
+  font-size: 14.5px;
+}
+.sidebar-menu-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.menu-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #001e50;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.menu-icon {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.menu-name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.bottom-sec-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.upgrade-img {
+  width: 75%;
+}
+.upgrade-button {
+  background: linear-gradient(192.05deg, #47bfdf 0%, #4a91ff 100%);
+  color: #fff;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 15px;
+  height: 37px;
+  width: 140px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: -34px;
+  align-self: center;
+  margin-left: -20px;
+}

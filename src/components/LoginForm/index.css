@@ -1,0 +1,138 @@
+.login-link-decoration {
+  text-decoration: none;
+}
+.login-form-page-container {
+  background-color: #e7e7e7;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form-container {
+  background-color: #fff;
+  width: 420px;
+  height: 63vh;
+  padding: 40px 30px 40px 30px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .login-form-container {
+    width: 90%;
+    padding: 30px 20px 30px 20px;
+    height: 64vh;
+  }
+}
+.logo-header-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.website-logo {
+  width: 80px;
+  height: 30px;
+}
+.logo-description {
+  color: #101010;
+  margin-top: 0;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+}
+.input-disclaimer {
+  color: #808080;
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.field-container {
+  padding: 10px 5px 10px 5px;
+}
+.field {
+  width: 100%;
+  height: 43px;
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #808080;
+  padding-left: 13px;
+  border: 1.5px solid rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  outline: none;
+  background-color: transparent;
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.checkbox {
+  width: 14px;
+  height: 14px;
+  margin-left: 6px;
+}
+.remember-password {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'roboto';
+  color: #667280;
+  margin-left: 4px;
+}
+.continue-button {
+  width: 100%;
+  height: 40px;
+  background-color: #d9d9d9;
+  color: #fff;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-top: 19px;
+}
+.forgot-password {
+  background: linear-gradient(192.05deg, #47bfdf 0%, #4a91ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'roboto';
+  text-align: center;
+  margin-top: 10px;
+}
+.sign-up-section {
+  color: #000;
+  font-family: 'roboto';
+  font-size: 14.5px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  .sign-up-section {
+    margin-top: 90px;
+  }
+}
+.sign-up-span {
+  color: #4a91ff;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 14.5px;
+  font-weight: 500;
+  font-family: 'roboto';
+  margin-left: 5px;
+  text-decoration: underline;
+}
