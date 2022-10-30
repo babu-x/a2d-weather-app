@@ -2,6 +2,7 @@ const express = require('express')
 const {open} = require('sqlite')
 const bcrypt = require('bcrypt')
 const sqlite3 = require('sqlite3')
+const cors = require('cors')
 const path = require('path')
 
 const dbPath = path.join(__dirname, 'weatherapp.db')
@@ -10,6 +11,7 @@ const app = express()
 module.exports = app
 
 app.use(express.json())
+app.use(cors())
 
 let db = null
 
