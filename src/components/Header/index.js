@@ -3,6 +3,7 @@ import {GoLocation} from 'react-icons/go'
 import {AiOutlinePoweroff} from 'react-icons/ai'
 import {BiChevronDown} from 'react-icons/bi'
 import {Component} from 'react'
+import {Link} from 'react-router-dom'
 import './index.css'
 
 class Header extends Component {
@@ -22,7 +23,9 @@ class Header extends Component {
           <GoLocation className="header-icon" />
           <p className="city-name">Vijayawada</p>
           <BiChevronDown className="header-icon" />
-          <AiOutlinePoweroff className="logout-icon" />
+          <Link to="/login">
+            <AiOutlinePoweroff className="logout-icon" />
+          </Link>
         </div>
       </div>
     )
